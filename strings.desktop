@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=strings;
+
+[Desktop Action strings]
+Name=Extract strings
+Exec=konsole -e bash -c "strings '%f' | less"
+Icon=utilities-terminal

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=fileinfo;
+
+[Desktop Action fileinfo]
+Name=Real File Type (file)
+Exec=konsole -e bash -c "file '%f'; echo; read -p 'Enter para salir'"
+Icon=utilities-terminal

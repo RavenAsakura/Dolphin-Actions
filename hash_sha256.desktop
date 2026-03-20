@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=hash;
+
+[Desktop Action hash]
+Name=SHA256
+Exec=konsole -e bash -c "sha256sum '%f'; read -p 'Enter para salir'"
+Icon=utilities-terminal

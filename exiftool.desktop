@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/jpeg;image/png;image/tiff;image/webp;video/mp4;application/pdf;
+Actions=exif;
+
+[Desktop Action exif]
+Name=View EXIF (exiftool)
+Exec=konsole -e bash -c "exiftool '%f' | less"
+Icon=utilities-terminal
